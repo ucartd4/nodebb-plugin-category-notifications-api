@@ -1,5 +1,5 @@
 {
-  "name": "@pearson-nodebb/nodebb-plugin-category-notifications-api",
+  "name": "nodebb-plugin-category-notifications-api",
   "version": "1.0.0",
   "description": "Category notifications API",
   "main": "index.js",
