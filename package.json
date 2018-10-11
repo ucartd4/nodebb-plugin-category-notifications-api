@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-category-notifications",
-  "version": "3.0.0",
-  "description": "Category notifications",
+  "name": "nodebb-plugin-category-notifications-api",
+  "version": "1.0.0",
+  "description": "Category notifications API",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NodeBB/nodebb-plugin-category-notifications"
+    "url": "https://github.com/ucartd4/nodebb-plugin-category-notifications-api"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,11 +16,14 @@
     "notification",
     "category"
   ],
-  "author": "Baris Usakli <baris@nodebb.org>",
+  "author": "Derek Carter <derek.carter@pearson.com>",
   "license": "MIT",
   "dependencies": {
     "async": "~0.9.0",
     "winston": "2.1.0"
+  },
+  "peerDependencies": {
+    "nodebb-plugin-write-api": "5.2.0"
   },
   "nbbpm": {
     "compatibility": "^1.5.0"
