@@ -23,6 +23,7 @@
     "winston": "2.1.0"
   },
   "peerDependencies": {
+    "express": "^4.16.2",
     "nodebb-plugin-write-api": "5.2.0"
   },
   "nbbpm": {
